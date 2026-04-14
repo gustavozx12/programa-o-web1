@@ -1,0 +1,27 @@
+algoritmo "Nome do Programa"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : ricardo ferreira
+// Descrição   : O construtor de data centers 
+// Autor(a)    : Gustavo Henrique Santana Santos
+// Data atual  : 13/04/2026
+var
+area: inteiro
+perimetro:inteiro
+largura,comprimento: inteiro
+
+inicio 
+escreva("Informe a Largura da sala: ")
+
+escreval("largura registrada com sucesso")
+leia(largura)
+escreval("informe o comprimento da sala: ")
+leia(comprimento)
+escreval("calcule a area da sala")
+area <- (largura * comprimento)
+leia (area)
+escreval("area registrada com sucesso")
+escreval("calcule o perimetro da sala")
+perimetro <- (largura + comprimento * 4)
+leia(perimetro)
+
+fimalgoritmo
